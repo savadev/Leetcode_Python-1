@@ -10,23 +10,24 @@ Output:
   ["nat","tan"],
   ["bat"]
 ]
+Note:
+
+
 """
 
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        dict = {}
+        anag_dict = {}
+        if strs == []:
+              return []
+        for i in range(len(strs)):
+            temp_str = str(sorted(strs[i]))
+            if temp_str not in anag_dict.keys():
+                anag_dict[temp_str] = [strs[i]] 
+            else:
+                anag_dict[temp_str].append(strs[i])
         final = []
-        for stri in strs:
-            key = "".join(sorted(stri))
-            
-            if(dict.get(key) == None):
-               dict[key] = [stri]
-            else:    
-               dict[key].append(stri) 
-        
-        for key in dict:
-            print(dict[key])
-            final.append(dict[key])
+        for keys in anag_dict.keys():
+             final.append(anag_dict[keys])
         return final
-            
