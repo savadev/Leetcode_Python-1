@@ -22,33 +22,14 @@ Explanation: Your function can return either index number 1 where the peak eleme
 """
 
 
-
-
-## O(N) Complexity
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
-        if nums[0] ==max(nums):
-            return 0
-        if nums[len(nums)-1] == max(nums):
-            return len(nums)-1
-            
-        for i in range(1,len(nums)-1):
-            if nums[i-1] < nums[i] and nums[i] > nums[i+1]:
-                   return i
-            
-        return 0
-
-
-## O(log(N)) Complexity
-
-class Solution:
-    def findPeakElement(self, nums: List[int]) -> int:
-           left = 0
-           right = len(nums) -1 
-           self.binarySearch(nums, left, right)
+        i = 1 
+        nums.insert(0,-float("inf"))
+        nums.insert(len(nums),-float("inf"))
+        while i < len(nums)-1:
+            if nums[i]>nums[i-1] and nums[i+1] < nums[i]:
+                    return i-1
+            i+=1
+                
         
-    def binarySearch(self, nums, left, right):
-           mid= (left+right)//2
-           if left == right or nums[mid] > max(nums[mid-1],nums[mid+1]) :
-                return mid
-           return self.binarySearch(nums, left, mid-1 ) if nums[mid] > nums[mid+1] else self.binarySearch(nums, mid+1, right)
