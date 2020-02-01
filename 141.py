@@ -8,7 +8,7 @@ To represent a cycle in the given linked list, we use an integer pos which repre
 Example 1:
 
 Input: head = [3,2,0,-4], pos = 1
-Output: true
+Output: true 
 Explanation: There is a cycle in the linked list, where tail connects to the second node.
 
 

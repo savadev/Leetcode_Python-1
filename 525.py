@@ -12,7 +12,7 @@ Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal numb
 Note: The length of the given binary array will not exceed 50,000.
 
 """
-
+ 
 class Solution:
     def findMaxLength(self, nums: List[int]) -> int:
         count=0

@@ -13,7 +13,7 @@ Example 2:
 Input: haystack = "aaaaa", needle = "bba"
 Output: -1
 
-"""
+""" 
 
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:

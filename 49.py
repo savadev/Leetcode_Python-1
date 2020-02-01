@@ -11,7 +11,7 @@ Output:
   ["bat"]
 ]
 Note:
-
+ 
 
 """
 

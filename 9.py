@@ -4,7 +4,7 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 Example 1:
 
 Input: 121
-Output: true
+Output: true 
 Example 2:
 
 Input: -121

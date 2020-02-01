@@ -10,7 +10,7 @@ You have to rotate the image in-place, which means you have to modify the input 
 Example 1:
 
 Given input matrix = 
-[
+[ 
   [1,2,3],
   [4,5,6],
   [7,8,9]

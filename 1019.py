@@ -11,7 +11,7 @@ Note that in the example inputs (not outputs) below, arrays such as [2,1,5] repr
 
 Example 1:
 
-Input: [2,1,5]
+Input: [2,1,5] 
 Output: [5,5,0]
 Example 2:
 

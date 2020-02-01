@@ -12,7 +12,7 @@ Input:
 "abccccdd"
 
 Output:
-7
+7 
 
 Explanation:
 One longest palindrome that can be built is "dccaccd", whose length is 7.

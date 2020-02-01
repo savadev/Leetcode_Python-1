@@ -11,7 +11,7 @@ Accepted
 """
 
 
-class Solution:
+class Solution: 
     def addStrings(self, num1: str, num2: str) -> str:
          l1 = len(num1) if len(num1) > len(num2) else len(num2)
          l2 = len(num1) + len(num2)  - l1

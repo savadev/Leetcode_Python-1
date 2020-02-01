@@ -9,7 +9,7 @@ In a complete binary tree every level, except possibly the last, is completely f
 Example:
 
 Input: 
-    1
+    1 
    / \
   2   3
  / \  /

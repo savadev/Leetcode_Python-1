@@ -9,7 +9,7 @@ Example:
 Input: "aab"
 Output:
 [
-  ["aa","b"],
+  ["aa","b"], 
   ["a","a","b"]
 ]
 """

@@ -9,7 +9,7 @@ Note: The length of temperatures will be in the range [1, 30000]. Each temperatu
 
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
-        mapper = {}
+        mapper = {} 
         dp = [0 for i in range(len(T))]
         for i in range(len(T)):
             if T[i] not in mapper.keys():

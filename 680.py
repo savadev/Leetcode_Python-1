@@ -12,7 +12,7 @@ Explanation: You could delete the character 'c'.
 """
 
 class Solution:
-    def validPalindrome(self, s: str) -> bool:
+    def validPalindrome(self, s: str) -> bool: 
         i = 0 
         j = len(s)-1
         flag = 0

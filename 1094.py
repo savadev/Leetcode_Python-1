@@ -11,4 +11,4 @@ class Solution:
                 temp+= new_list[i][1]
                 if temp > capacity :
                     return False
-            return True
+            return True 

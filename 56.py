@@ -12,7 +12,7 @@ Input: [[1,4],[4,5]]
 Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 NOTE: input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
-"""
+""" 
 
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:

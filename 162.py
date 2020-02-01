@@ -8,7 +8,7 @@ The array may contain multiple peaks, in that case return the index to any one o
 You may imagine that nums[-1] = nums[n] = -∞.
 
 Example 1:
-
+ 
 Input: nums = [1,2,3,1]
 Output: 2
 Explanation: 3 is a peak element and your function should return the index number 2.

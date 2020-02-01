@@ -10,7 +10,7 @@ Output: "aba"
 Example 2:
 
 Input: S = "aaab"
-Output: ""
+Output: "" 
 Note:
 """
 

@@ -13,7 +13,7 @@ Given tree t:
    4 
   / \
  1   2
-Return true, because t has the same structure and node values with a subtree of s.
+Return true, because t has the same structure and node values with a subtree of s. 
 Example 2:
 Given tree s:
 

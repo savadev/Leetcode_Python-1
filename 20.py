@@ -9,7 +9,7 @@ Note that an empty string is also considered valid.
 
 Example 1:
 
-Input: "()"
+Input: "()" 
 Output: true
 Example 2:
 

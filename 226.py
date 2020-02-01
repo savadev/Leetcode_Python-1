@@ -8,7 +8,7 @@ Easy
 
 Favorite
 
-Share
+Share 
 Invert a binary tree.
 
 Example:

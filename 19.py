@@ -16,7 +16,7 @@ After removing the second node from the end, the linked list becomes 1->2->3->5.
 #         self.val = x
 #         self.next = None
 
-class Solution:
+class Solution: 
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         final = head
         while( head.next  != None) :

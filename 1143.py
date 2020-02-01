@@ -5,7 +5,7 @@ A subsequence of a string is a new string generated from the original string wit
 
  
 
-If there is no common subsequence, return 0.
+If there is no common subsequence, return 0. 
 
  
 

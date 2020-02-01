@@ -10,7 +10,7 @@ class Solution:
               return 0
         elif target == 0 and sorted(tempList) not in self.final:
               self.final.append(sorted(tempList))   
-        else:
+        else: 
               tempCandidates = candidates
               
               for i in range(len(candidates)):          

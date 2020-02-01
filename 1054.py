@@ -16,7 +16,7 @@ Output: [1,3,1,3,2,1,2,1]
  
 
 Note:
-
+ 
 1 <= barcodes.length <= 10000
 1 <= barcodes[i] <= 10000
 """

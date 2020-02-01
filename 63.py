@@ -7,7 +7,7 @@ Now consider if some obstacles are added to the grids. How many unique paths wou
 """
 
 class Solution:
-    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
+    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int: 
         
         m = len(obstacleGrid)
         n = len(obstacleGrid[0])
